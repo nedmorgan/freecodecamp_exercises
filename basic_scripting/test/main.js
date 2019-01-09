@@ -138,9 +138,46 @@
 
 // console.log(averageRating);
 
-function alphabeticalOrder(arr) {
-  // Add your code below this line
-  return arr.sort();
-  // Add your code above this line
-}
-alphabeticalOrder(["a", "d", "c", "a", "z", "g"]);
+// function alphabeticalOrder(arr) {
+//   // Add your code below this line
+//   return arr.sort();
+//   // Add your code above this line
+// }
+// alphabeticalOrder(["a", "d", "c", "a", "z", "g"]);
+
+// var globalArray = [5, 6, 3, 2, 9];
+// function nonMutatingSort(arr) {
+//   // Add your code below this line
+//   return [].concat(arr).sort(function(a,b) {
+//     return a - b;
+//   });
+//   // Add your code above this line
+// }
+// nonMutatingSort(globalArray);
+
+// function splitify(str) {
+//   // Add your code below this line
+//   return str.replace(/[\W]/g, " ").split(" ");
+//   // Add your code above this line
+// }
+// splitify("Hello World,I-am code");
+
+// function sentensify(str) {
+//   // Add your code below this line
+//   return str.split(/\W/g).join(" ");
+
+//   // Add your code above this line
+// }
+// sentensify("May-the-force-be-with-you");
+
+// // the global variable
+// var globalTitle = " Winter Is  Coming";
+
+// // Add your code below this line
+// function urlSlug(title) {
+//   return title.toLowerCase().split(" ").filter(word => word !== "").join("-");
+//   //.split([/\s/]).join("-");
+// }
+// // Add your code above this line
+
+// var winterComing = urlSlug(globalTitle); // Should be "winter-is-coming"
