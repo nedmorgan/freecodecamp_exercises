@@ -181,3 +181,30 @@
 // // Add your code above this line
 
 // var winterComing = urlSlug(globalTitle); // Should be "winter-is-coming"
+
+// function checkPositive(arr) {
+//   // Add your code below this line
+//   return arr.every(num => num >= 1);
+
+//   // Add your code above this line
+// }
+// checkPositive([1, 2, 3, -4, 5]);
+
+// function checkPositive(arr) {
+//   // Add your code below this line
+//   return arr.some(num => num >= 0);
+
+//   // Add your code above this line
+// }
+// checkPositive([1, 2, 3, -4, 5]);
+
+function add(x) {
+  // Add your code below this line
+  return function(y) {
+    return function(z) {
+      return x + y + z;
+    }
+  }
+  // Add your code above this line
+}
+add(10)(20)(30);
