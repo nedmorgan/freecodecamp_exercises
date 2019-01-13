@@ -1,9 +1,13 @@
 function sumAll(arr) {
   let newArray = [...arr].sort();
-  for(var i = newArray[0]; i < newArray[1]; i++) {
-    newArray.splice(newArray[1], 0, i);
+  let max = Math.max(newArray[0], newArray[1]);
+  let min = Math.min(newArray[0], newArray[1]);
+  let num = 0;
+  for(var i = min; i <= max; i++) {
+    num += i;
   }
-  return newArray;
+
+  return num;
 }
 
 sumAll([4, 1]);
